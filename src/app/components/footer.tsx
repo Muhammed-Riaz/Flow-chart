@@ -3,15 +3,13 @@ import Image from "next/image"
 
 function Footer() {
   return (
-    <footer className="bg-blue-900 text-gray-50 py-12">
+    <footer className="bg-blue-900 text-gray-50 py-12 px-2 mt-10">
 
       <div className="max-w-5xl mx-auto grid grid-cols-2 text-center sm:grid-cols-2 px-8 gap-8 sm:px-6">
 
     <div>
       <h3 className="text-yellow-400 text-lg font-semibold mb-4">About Us</h3>
-      <p className="mb-4">In 2021, we also updated the Venngage brand, introduced a diagramming automation feature that let you effortlessly create complex diagrams and are diligently working on our video creation feature will allow our customers to create engaging content with a familiar platform.
-      As our team grows, and our platform evolves, we look forward 
-    to all the new and exciting things in store for Venngage.</p>
+      <p className="mb-4">In 2021, we also updated the Venngage brand, introduced a diagramming automation feature that let you </p>
     </div>
 
     <div>
